@@ -35,6 +35,8 @@ entrada = new int[4, 5]
                   {1,1,1,1,1},
                   {1,0,0,1,0}
              };
+             
+Saída: 6             
 
 #2 - Matriz 8x5
 
@@ -49,7 +51,7 @@ entrada = new int[8, 5]
                   {1,1,1,1,1},
                   {1,0,0,1,0}
              };
-
+Saída: 6             
 #3 - Matriz 2x5
 
 entrada = new int[2, 5]
@@ -58,6 +60,7 @@ entrada = new int[2, 5]
                   {1,0,1,1,1} 
              };
 
+Saída: Nenhum retângulo válido.
 
 # Conslusão
 
