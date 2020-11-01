@@ -69,15 +69,15 @@ Saída: Nenhum retângulo válido.
 O programa recebe a entrada no formato de matriz,
 semelhante ao exemplo informado no ínicio do documento.
 
-Deve-se percorrer todas as linhas da matriz, validando se encontra uma sequência válida(A1). 
+Deve-se percorrer todas as linhas da matriz, validando se existe sequência válida(A1). 
 
-Foi utilizado recusividade ao encontrar uma forma válida,
+Foi utilizado recusividade ao encontrar uma linha válida,
 ao enontrar uma linha válida e executado o mesmo processo de validação em todas as linhas posteriores,
-o intuíto é encontrar o retângulo e calcular sua área.
+o intuíto é encontrar o retângulo e calcular sua área(A1).
 
 # A1 - Sequencia válida
 
-Para forma linhas e colunas não podem ter o mesmo valor,
+Para forma um retângulo válido, linhas e colunas não podem ter o mesmo valor,
 no ínicio do documento foi demonstrado o valor 6 como saída válida, 
 constiuíndo 2 linhas x 3 colunas.
 
