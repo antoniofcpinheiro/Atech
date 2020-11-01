@@ -77,7 +77,7 @@ o intuíto é encontrar o retângulo e calcular sua área(A1).
 
 # A1 - Sequencia válida
 
-Para forma um retângulo válido, linhas e colunas não podem ter o mesmo valor,
+Para formar um retângulo válido, linhas e colunas não podem ter o mesmo valor,
 no ínicio do documento foi demonstrado o valor 6 como saída válida, 
 constiuíndo 2 linhas x 3 colunas.
 
