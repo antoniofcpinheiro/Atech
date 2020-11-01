@@ -17,7 +17,7 @@ namespace Atech.ConsoleApp
             var resultado = entrada
                 .Pesquisar();
 
-            var textoApresentacao = "Nenhum retângulo válido";
+            var textoApresentacao = "Nenhum retângulo válido.";
 
             if (resultado.Valido)
                 textoApresentacao = string.Concat("Saida :", resultado.Area);
