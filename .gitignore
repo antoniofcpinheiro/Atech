@@ -4,3 +4,5 @@
 
 /src/Atech.ConsoleApp/Atech.ConsoleApp/bin/Debug/netcoreapp2.2
 /src/Atech.ConsoleApp/Atech.Tests/Atech.Tests/bin/Debug/netcoreapp2.2
+/src/Atech.ConsoleApp/Atech.ConsoleApp/obj
+/src/Atech.ConsoleApp/Atech.Tests/Atech.Tests/obj
