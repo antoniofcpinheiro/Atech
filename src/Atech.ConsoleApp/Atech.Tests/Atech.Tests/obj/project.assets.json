@@ -5874,11 +5874,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\anton\\Desktop\\Atech\\Atech.ConsoleApp\\Atech.Tests\\Atech.Tests\\Atech.Tests.csproj",
+      "projectUniqueName": "C:\\Atech\\Atech\\src\\Atech.ConsoleApp\\Atech.Tests\\Atech.Tests\\Atech.Tests.csproj",
       "projectName": "Atech.Tests",
-      "projectPath": "C:\\Users\\anton\\Desktop\\Atech\\Atech.ConsoleApp\\Atech.Tests\\Atech.Tests\\Atech.Tests.csproj",
+      "projectPath": "C:\\Atech\\Atech\\src\\Atech.ConsoleApp\\Atech.Tests\\Atech.Tests\\Atech.Tests.csproj",
       "packagesPath": "C:\\Users\\anton\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\anton\\Desktop\\Atech\\Atech.ConsoleApp\\Atech.Tests\\Atech.Tests\\obj\\",
+      "outputPath": "C:\\Atech\\Atech\\src\\Atech.ConsoleApp\\Atech.Tests\\Atech.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5897,8 +5897,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\anton\\Desktop\\Atech\\Atech.ConsoleApp\\Atech.ConsoleApp\\Atech.ConsoleApp.csproj": {
-              "projectPath": "C:\\Users\\anton\\Desktop\\Atech\\Atech.ConsoleApp\\Atech.ConsoleApp\\Atech.ConsoleApp.csproj"
+            "C:\\Atech\\Atech\\src\\Atech.ConsoleApp\\Atech.ConsoleApp\\Atech.ConsoleApp.csproj": {
+              "projectPath": "C:\\Atech\\Atech\\src\\Atech.ConsoleApp\\Atech.ConsoleApp\\Atech.ConsoleApp.csproj"
             }
           }
         }

@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\anton\\Desktop\\Atech\\Atech.ConsoleApp\\Atech.ConsoleApp\\Atech.ConsoleApp.csproj",
+      "projectUniqueName": "C:\\Atech\\Atech\\src\\Atech.ConsoleApp\\Atech.ConsoleApp\\Atech.ConsoleApp.csproj",
       "projectName": "Atech.ConsoleApp",
-      "projectPath": "C:\\Users\\anton\\Desktop\\Atech\\Atech.ConsoleApp\\Atech.ConsoleApp\\Atech.ConsoleApp.csproj",
+      "projectPath": "C:\\Atech\\Atech\\src\\Atech.ConsoleApp\\Atech.ConsoleApp\\Atech.ConsoleApp.csproj",
       "packagesPath": "C:\\Users\\anton\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\anton\\Desktop\\Atech\\Atech.ConsoleApp\\Atech.ConsoleApp\\obj\\",
+      "outputPath": "C:\\Atech\\Atech\\src\\Atech.ConsoleApp\\Atech.ConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder"
