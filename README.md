@@ -26,7 +26,7 @@ Criado o projeto de testes utilizando XUnit.
 
 Foram validados três tipos de entradas
 
-#1 - Matriz 4x5
+# 1 - Matriz 4x5
 
 entrada = new int[4, 5]
              {
@@ -38,7 +38,7 @@ entrada = new int[4, 5]
              
 Saída: 6             
 
-#2 - Matriz 8x5
+# 2 - Matriz 8x5
 
 entrada = new int[8, 5]
              {
@@ -52,8 +52,9 @@ entrada = new int[8, 5]
                   {1,0,0,1,0}
              };
              
-Saída: 6             
-#3 - Matriz 2x5
+Saída: 6 
+
+# 3 - Matriz 2x5
 
 entrada = new int[2, 5]
              {
