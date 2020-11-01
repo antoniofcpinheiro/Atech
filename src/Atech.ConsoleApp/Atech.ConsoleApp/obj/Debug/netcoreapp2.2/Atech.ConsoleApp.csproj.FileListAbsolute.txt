@@ -1,0 +1,10 @@
+C:\Users\anton\Desktop\Atech\Atech.ConsoleApp\Atech.ConsoleApp\bin\Debug\netcoreapp2.2\Atech.ConsoleApp.deps.json
+C:\Users\anton\Desktop\Atech\Atech.ConsoleApp\Atech.ConsoleApp\bin\Debug\netcoreapp2.2\Atech.ConsoleApp.runtimeconfig.json
+C:\Users\anton\Desktop\Atech\Atech.ConsoleApp\Atech.ConsoleApp\bin\Debug\netcoreapp2.2\Atech.ConsoleApp.runtimeconfig.dev.json
+C:\Users\anton\Desktop\Atech\Atech.ConsoleApp\Atech.ConsoleApp\bin\Debug\netcoreapp2.2\Atech.ConsoleApp.dll
+C:\Users\anton\Desktop\Atech\Atech.ConsoleApp\Atech.ConsoleApp\bin\Debug\netcoreapp2.2\Atech.ConsoleApp.pdb
+C:\Users\anton\Desktop\Atech\Atech.ConsoleApp\Atech.ConsoleApp\obj\Debug\netcoreapp2.2\Atech.ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\anton\Desktop\Atech\Atech.ConsoleApp\Atech.ConsoleApp\obj\Debug\netcoreapp2.2\Atech.ConsoleApp.AssemblyInfoInputs.cache
+C:\Users\anton\Desktop\Atech\Atech.ConsoleApp\Atech.ConsoleApp\obj\Debug\netcoreapp2.2\Atech.ConsoleApp.AssemblyInfo.cs
+C:\Users\anton\Desktop\Atech\Atech.ConsoleApp\Atech.ConsoleApp\obj\Debug\netcoreapp2.2\Atech.ConsoleApp.dll
+C:\Users\anton\Desktop\Atech\Atech.ConsoleApp\Atech.ConsoleApp\obj\Debug\netcoreapp2.2\Atech.ConsoleApp.pdb
