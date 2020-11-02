@@ -5,7 +5,7 @@ namespace Atech.Tests
 {
     public class FormaGeometricaTests
     {
-        const string MENSGEM_ERRO = "Cálculo de área inválido";
+        const string MENSAGEM_ERRO = "Cálculo de área inválido";
         const int  CALCULO_AREA_VALIDA = 6;
 
         [Fact]
@@ -25,7 +25,7 @@ namespace Atech.Tests
               .RetornarFormaGeometrica();
 
             // Assert
-            Assert.True(resultado.Area == CALCULO_AREA_VALIDA, MENSGEM_ERRO);
+            Assert.True(resultado.Area == CALCULO_AREA_VALIDA, MENSAGEM_ERRO);
              
 
         }
@@ -52,7 +52,7 @@ namespace Atech.Tests
               .RetornarFormaGeometrica();
 
             // Assert
-            Assert.True(resultado.Area == CALCULO_AREA_VALIDA, MENSGEM_ERRO);
+            Assert.True(resultado.Area == CALCULO_AREA_VALIDA, MENSAGEM_ERRO);
 
 
         }
@@ -73,7 +73,7 @@ namespace Atech.Tests
               .RetornarFormaGeometrica();
 
             // Assert
-            Assert.False(resultado.Valido, MENSGEM_ERRO);
+            Assert.False(resultado.Valido, MENSAGEM_ERRO);
 
         }
 
