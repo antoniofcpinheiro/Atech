@@ -24,18 +24,7 @@
             return resultado;
         }
 
-        private static void SeValidoIncrementarObjeto(this FormaGeometrica resultado, FormaGeometrica forma)
-        {
-            if (forma.Valido && resultado.Area <= forma.Area)
-            {
-                resultado.Area = forma.Area;
-                resultado.ColunaInicial = forma.ColunaInicial;
-                resultado.Valido = forma.Valido;
-                resultado.Vertice = forma.Vertice;
-            }                
-        }
-
-        public static FormaGeometrica AnalisarLinha(this int[,] numeros, int indexLinha, int colunaInicial)
+        private static FormaGeometrica AnalisarLinha(this int[,] numeros, int indexLinha, int colunaInicial)
         {
             var arestaAtual = new FormaGeometrica();
 
@@ -52,6 +41,17 @@
 
             return arestaAtual;
         }
+
+        private static void SeValidoIncrementarObjeto(this FormaGeometrica resultado, FormaGeometrica forma)
+        {
+            if (forma.Valido && resultado.Area <= forma.Area)
+            {
+                resultado.Area = forma.Area;
+                resultado.ColunaInicial = forma.ColunaInicial;
+                resultado.Valido = forma.Valido;
+                resultado.Vertice = forma.Vertice;
+            }                
+        }        
 
         private static void ValidarVertice(this FormaGeometrica arestaAtual, int indexColuna, int vertice)
         {
