@@ -71,8 +71,8 @@ semelhante ao exemplo informado no ínicio do documento.
 
 Deve-se percorrer todas as linhas da matriz, validando se existe sequência válida(A1). 
 
-Foi utilizado recusividade ao encontrar uma linha válida,
-ao enontrar uma linha válida e executado o mesmo processo de validação em todas as linhas posteriores,
+Foi utilizado recursividade ao encontrar uma linha válida e executado 
+o mesmo processo de validação em todas as linhas posteriores,
 o intuíto é encontrar o retângulo e calcular sua área(A1).
 
 # A1 - Sequencia válida
