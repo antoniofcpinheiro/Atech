@@ -15,7 +15,7 @@ namespace Atech.ConsoleApp
               };
 
             var resultado = entrada
-                .Pesquisar();
+                .RetornarFormaGeometrica();
 
             var textoApresentacao = "Nenhum retângulo válido.";
 

@@ -22,7 +22,7 @@ namespace Atech.Tests
 
             // Act
             var resultado = entrada
-              .Pesquisar();
+              .RetornarFormaGeometrica();
 
             // Assert
             Assert.True(resultado.Area == CALCULO_AREA_VALIDA, MENSGEM_ERRO);
@@ -49,7 +49,7 @@ namespace Atech.Tests
 
             // Act
             var resultado = entrada
-              .Pesquisar();
+              .RetornarFormaGeometrica();
 
             // Assert
             Assert.True(resultado.Area == CALCULO_AREA_VALIDA, MENSGEM_ERRO);
@@ -70,7 +70,7 @@ namespace Atech.Tests
 
             // Act
             var resultado = entrada
-              .Pesquisar();
+              .RetornarFormaGeometrica();
 
             // Assert
             Assert.False(resultado.Valido, MENSGEM_ERRO);

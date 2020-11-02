@@ -2,24 +2,29 @@
 {
     public static class FormaGeometricaExtension
     {
+        const int COLUNA_INICIAL = 0;
         const int VERTICE_VALIDO = 1;
-        const int AREA_VALIDA = 2;
+        const int INCREMENTO_LINHA = 1;
+        const int AREA_VALIDA = 2;     
 
-        public static FormaGeometrica Pesquisar(this int[,] numeros)
+        public static FormaGeometrica RetornarFormaGeometrica(this int[,] numeros)
         {
             var resultado = new FormaGeometrica();
 
             for (int indexLinha = 0; indexLinha < numeros.GetLength(0); indexLinha++)
             {
-                var forma = AnalisarLinha(numeros, indexLinha, 0);
-                SeValidoIncrementarObjeto(resultado, forma);
+                var forma = numeros
+                    .AnalisarLinha(indexLinha, COLUNA_INICIAL);
+
+                resultado
+                    .SeValidoIncrementarObjeto(forma);
             }
 
             resultado.Valido = resultado.Vertice >= AREA_VALIDA;
             return resultado;
         }
 
-        private static void SeValidoIncrementarObjeto(FormaGeometrica resultado, FormaGeometrica forma)
+        private static void SeValidoIncrementarObjeto(this FormaGeometrica resultado, FormaGeometrica forma)
         {
             if (forma.Valido && resultado.Area <= forma.Area)
             {
@@ -30,17 +35,20 @@
             }                
         }
 
-        public static FormaGeometrica AnalisarLinha(int[,] numeros, int indexLinha, int colunaInicial)
+        public static FormaGeometrica AnalisarLinha(this int[,] numeros, int indexLinha, int colunaInicial)
         {
             var arestaAtual = new FormaGeometrica();
 
             for (int indexColuna = colunaInicial; indexColuna < numeros.GetLength(1); indexColuna++)
             {
                 var vertice = numeros[indexLinha, indexColuna];
-                arestaAtual.ValidarVertice(indexColuna, vertice);
-            }           
 
-            ExecutarRecursividade(numeros, indexLinha, arestaAtual);
+                arestaAtual
+                    .ValidarVertice(indexColuna, vertice);
+            }
+
+            numeros
+                .ExecutarRecursividade(indexLinha, arestaAtual);
 
             return arestaAtual;
         }
@@ -60,15 +68,15 @@
             {
                 arestaAtual.Area = 0;
                 arestaAtual.Valido = false;
-                arestaAtual.ColunaInicial = 0;             
+                arestaAtual.ColunaInicial = COLUNA_INICIAL;             
 
             }
         }
 
-        private static void ExecutarRecursividade(int[,] numeros, int indexLinha, FormaGeometrica aresta)
+        private static void ExecutarRecursividade(this int[,] numeros, int indexLinha, FormaGeometrica aresta)
         {
             aresta.Valido = aresta.Area > AREA_VALIDA;
-            int indexProximaLinha = indexLinha + 1;
+            int indexProximaLinha = indexLinha + INCREMENTO_LINHA;
             bool exiteProximaLinha = indexProximaLinha < numeros.GetLength(0);
             if (aresta.Valido && exiteProximaLinha)
             {             
